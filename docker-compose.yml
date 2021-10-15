@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  react:
+    build: ./my-app
+    volumes:
+      - ./my-app/nginx/nginx.conf:/etc/nginx/nginx.conf
+      - C:/Users/Romeo/Desktop/Image/:/virtual/image/
+    ports:
+      - '888:80'
+      - '889:443'
+      - '890:81'
+      - '891:444'
+    depends_on:
+      - webapi
+    restart: always
+  webapi:
+    build: ./webapi
+    expose: 
+      - "5000"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:5000
+    restart: always
+   

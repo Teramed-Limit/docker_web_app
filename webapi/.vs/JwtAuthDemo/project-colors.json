@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4e18eef3-99d2-414a-9aa9-4f762cc365b1": {
+      "ProjectGuid": "4e18eef3-99d2-414a-9aa9-4f762cc365b1",
+      "DisplayName": "JwtAuthDemo",
+      "ColorIndex": 0
+    },
+    "cc31d8c6-6b10-4f38-8199-d67cd3e676bb": {
+      "ProjectGuid": "cc31d8c6-6b10-4f38-8199-d67cd3e676bb",
+      "DisplayName": "JwtAuthDemo.IntegrationTests",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "其他檔案",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}
